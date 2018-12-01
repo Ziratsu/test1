@@ -1,0 +1,1099 @@
+/*------------------ GENERAL -----------------*/
+
+html {
+    font-size: 10px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+/*----------- navBarbar centered ---------------*/
+
+.navBar{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    background:  rgba(255,255,255);
+    width: 100%;    
+    position: fixed;
+    top: -0.2em;
+    z-index: 100;
+}
+.navBar li{
+    display:inline-block;
+    padding:10px;
+    opacity: 1;
+    transition: all 0.2s linear;
+}
+
+.navBar li a {
+    font-size: 2.2em;
+    text-decoration: none;
+    font-family: lato;
+    font-weight: 300;
+    color:  #CF000F;
+    transition: all 0.2s linear;
+  
+}
+
+/*------------ Header avec img accueil --------------------*/
+
+
+.containerAccueil{
+    width: 60%;
+    margin: auto;
+    position: relative;
+    bottom: 0em;
+}
+
+header { 
+    background: url("https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+h1 {
+  
+    font-size: 10em;
+    margin: 0;
+    color: #fff;
+    position: relative;
+    top: 1.4em;
+    font-weight: 100;
+    text-align: center;
+    font-family: 'Black Han Sans';
+
+}
+header h2{
+    font-size: 5em;
+    color: #fff;
+    position: relative;
+    top: 230px;
+    font-family: lato;
+    float: left;
+}
+
+header p{
+    font-size: 2.5em;
+    position: relative;
+    top: 230px;
+    color: #fff;
+    width: 45%;
+    font-family: lato;
+}
+
+header button {
+    position: relative;
+    bottom: 0em;
+    right: -3em;
+    float: right;
+    background:#CF000F;
+    color: #fff;
+    border-radius:0.5em;
+    border: none;
+    font-size: 2.5em;
+    width: 15em;
+    height: 2.5em;
+    transition: all 0.3s linear;
+}
+header button:hover {
+    color: #CF000F;
+    background: white;
+}
+
+
+/*-------------------- Section Caroussel ----------------------------*/
+
+h2 {
+    font-size: 5.5em;
+    text-align: center;
+    position: relative;
+    font-family: lato;
+    top: 0.5em;
+}
+
+
+.wrapper {
+    margin: auto;
+    width: 80%;
+    position: relative;
+    top: 80px;
+  }
+
+
+#firstSection {
+height: 80em;
+}
+
+#firstSection p {
+    text-align: center;
+    font-size: 2em;
+}
+
+#firstSection hr {
+    width: 10em;
+    height: 0.2em;
+    background:rgb(228, 11, 25);
+    margin: auto;
+    position: relative;
+    top: 17em;
+    border-radius: 5em;
+}
+
+
+/* ------------------ Section 2 images ----------------------*/
+
+.deuxImages {
+    width: 100%;
+    height: 60em;
+    background:  #CF000F;
+    display: flex;
+}
+
+.bigImg {
+    border: 1px solid black;
+    height: 100%;
+    width: 50%;
+    background: orange;
+}
+
+#bg1 {
+    background: url("https://images.pexels.com/photos/685534/pexels-photo-685534.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+#bg2 {
+    background: url("https://images.pexels.com/photos/17840/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+#insideImg {
+    margin: auto;
+    height: 25em;
+    width: 50em;
+    background: rgba(255,255,255,0.8);
+    position: relative;
+    top: 12em;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+
+}
+.element {  
+    float: right;
+    shape-outside: circle(50%);
+    width: 200px;
+    height: 200px;
+  }
+
+#insideImg h3 {
+    font-size: 5em;
+    font-family: lato;
+    position: relative;
+    left: 2.6em;
+    top: 2em;
+}
+
+
+#insideImg p {
+    font-family: lato;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+#insideImg2 {
+    margin: auto;
+    height: 25em;
+    width: 50em;
+    background: rgba(255,255,255,0.8);
+    position: relative;
+    top: 12em;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+
+   
+}
+
+#insideImg2 h3 {
+    font-size: 5em;
+    font-family: lato;
+    position: relative;
+    right: 1.4em;
+    top: 2em;
+
+
+}
+
+
+#insideImg2 p {
+    font-size: 1.5em;
+    font-weight: 900;
+   
+}
+
+.element2 {  
+    float: left;
+
+    width: 200px;
+    height: 100%;
+  }
+
+
+
+  /*------------------- Section Cours ----------------------*/
+
+
+#sectionCours {
+
+
+height: 80em;
+
+}
+
+#sectionCours h3 {
+    text-align: center;
+    font-size: 5em;
+    font-family: lato;
+    position: relative;
+    top: 0.6em;
+    
+}
+
+
+#sectionCours p {
+    font-size: 1.8em;
+    font-family: lato;
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 2em;
+}
+
+
+.flexDiv {
+    margin: 0 auto;
+    width:120em;
+    height: 60em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cours {
+
+    height: 25em;
+    width: 35em;
+    margin: auto;
+    
+
+}
+
+.cours img {
+    width: 100%;
+    height:80%;
+}
+
+
+/* Section deviens membre  */
+
+
+#membership {
+
+    width: 100%;
+    height: 40em;
+    background: url("https://images.pexels.com/photos/163444/sport-treadmill-tor-route-163444.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    background-size: cover;
+    background-position: center;
+
+}
+
+#membership h4{
+
+    font-size: 5.5em;
+    font-family: lato;
+    letter-spacing: 0.01em;
+    font-weight: 900;
+    text-align: center;;
+    position: relative;
+    top: 1em;
+    color: #000;
+}
+
+#membership p {
+    text-align: center;
+    font-size: 2em;
+    font-family: lato;
+    font-weight: 700;
+    color: #000;
+
+}
+
+#membership button {
+    display: block;
+    margin: auto;
+    height:60px; 
+    width:300px; 
+    border-radius: 0.5em;
+    font-size: 2em;
+    background:#CF000F;
+    color: #fff;
+    border: none;
+    transition: all 0.3s linear;
+}   
+
+#membership button:hover {
+    color: #CF000F;
+    background: white;
+}
+
+/*-------------------- footer ---------------------*/
+
+
+
+footer {
+    height: 40em;
+    width: 100%;
+
+    padding: 0;
+    margin: 0;
+}
+#footContainer {
+    display: flex;
+    height: 40em;
+    width: 100%;
+    margin: auto;
+
+}
+
+#footDiv1 {
+    width: 45%;
+    text-align: center;
+    margin: auto;
+}
+
+#footDiv1 h4 {
+    font-size: 5em;
+    font-family: lato;
+    padding-top: 1.5em;
+    margin: 0;
+
+}
+
+#footDiv1 p {
+    font-family: lato;
+    font-size: 2em;
+}
+
+#footDiv2 {
+    width: 45%;
+    text-align: center;
+    margin: auto;
+}
+
+#footDiv2 h4 {
+    font-size: 5em;
+    font-family: lato;
+    padding-top: 1.5em;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 0.7em;
+}
+
+input {
+    display: block;
+    margin: auto;
+    padding-top: 1em;
+}
+
+
+/*-------------- Media queries du plus grands au plus petit ------------*/
+
+
+@media screen and (max-width: 1447px) and (min-width: 992px)  {
+
+
+
+/* Accueil */
+
+
+    .containerAccueil{
+        width: 80%;
+        margin: auto;
+        position: relative;
+        bottom: 0em;
+    }
+    
+    header { 
+        background: url("https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        
+    }
+    
+    h1 {
+      
+        font-size: 11em;
+        margin: 0;
+        color: #fff;
+        position: relative;
+        top: 0.8em;
+        font-weight: bold;
+        font-weight: 900;
+        text-align: center;
+        font-family: 'Black Han Sans';
+     
+    }
+    header h2{
+        font-size: 4em;
+        color: #fff;
+        position: relative;
+        top: 230px;
+        font-family: lato;
+        float: left;
+    }
+    
+header p{
+    font-size: 2.5em;
+    position: relative;
+    top: 230px;
+    color: #fff;
+    width: 45%;
+    font-family: lato;
+}
+
+
+
+/*------------ cours --------------------*/
+
+#sectionCours {
+
+
+    height: 100em;
+    
+    }
+
+.flexDiv {
+    margin: 0 auto;
+    width:100em;
+    height: 60em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+/*-------------- 2 grandes images ----------------*/
+
+
+
+
+#bg1 {
+    background: url("https://images.pexels.com/photos/685534/pexels-photo-685534.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    
+}
+#bg2 {
+    background: url("https://images.pexels.com/photos/17840/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    background-position: center;
+}
+
+}
+
+
+
+@media screen and (max-width: 992px) and (min-width: 768px)  {
+
+
+/*----------- Accueil --------------*/
+
+    .containerAccueil{
+        width: 90%;
+        margin: auto;
+        position: relative;
+        bottom: 0em;
+    }
+    
+    header { 
+        background: url("https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        
+    }
+    
+    h1 {
+      
+        font-size: 14em;
+        margin: 0;
+        color: #fff;
+        position: relative;
+        top: 0.8em;
+        font-weight: 100;
+        text-align: center;
+        font-family: 'Black Han Sans';
+    
+    }
+    header h2{
+        font-size: 3em;
+        color: #fff;
+        position: relative;
+        top: 230px;
+        font-family: lato;
+        float: left;
+    }
+    
+    header p{
+        font-size: 2em;
+        position: relative;
+        top: 230px;
+        color: #fff;
+        width: 45%;
+        font-family: lato;
+    }
+    
+    header button {
+        position: relative;
+        bottom: 0;
+        right: 0;
+        float: right;
+        background:#CF000F;
+        color: #fff;
+        border-radius:0.5em;
+        border: none;
+        font-size: 2.2em;
+        width: 12em;
+        height: 2.5em;
+        transition: all 0.3s linear;
+    }
+
+    
+/* HR carousel */
+    
+#firstSection hr  {
+ 
+}
+
+/*---------------  Section 2 Images -----------------*/
+
+
+
+.deuxImages {
+    width: 100%;
+    height: 60em;
+    background:  #CF000F;
+    display: flex;
+}
+
+.bigImg {
+    border: 1px solid black;
+    height: 100%;
+    width: 50%;
+}
+
+#bg1 {
+    background: url("https://images.pexels.com/photos/685534/pexels-photo-685534.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    background-position: center;
+}
+#bg2 {
+    background: url("https://images.pexels.com/photos/17840/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    background-position: center;
+}
+
+#insideImg {
+    margin: auto;
+    height: 25em;
+    width: 20em;
+    background: rgba(255,255,255,0.8);
+    position: relative;
+    top: 12em;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+
+}
+
+
+#insideImg h3 {
+    font-size: 3em;
+    font-family: lato;
+    position: relative;
+    left: 1em;
+    top: -3em;
+}
+
+
+#insideImg2 {
+    margin: auto;
+    height: 25em;
+    width: 20em;
+    background: rgba(255,255,255,0.8);
+    position: relative;
+    top: 12em;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+#insideImg2 h3 {
+    font-size: 2.8em;
+    font-family: lato;
+    position: relative;
+    left: 1em;
+    top: -4.5em;
+
+
+}
+
+
+
+
+
+
+/*-------------- Cours ---------------*/
+
+
+#sectionCours {
+
+
+    height: 90em;
+    
+    }
+    
+    #sectionCours h3 {
+        text-align: center;
+        font-size: 3em;
+        font-family: lato;
+        position: relative;
+        top: 0.6em;
+        
+    }
+    
+    
+    #sectionCours p {
+        font-size: 1.5em;
+        font-family: lato;
+        text-align: center;
+        font-weight: 500;
+        padding-bottom: 2em;
+    }
+    
+    
+    .flexDiv {
+        margin: 0 auto;
+        width:75em;
+        height: 50em;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .cours {
+    
+        height: 25em;
+        width: 35em;
+        margin: auto;
+        
+    
+    }
+    
+    .cours img {
+        width: 100%;
+        height:80%;
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 768px) and (min-width: 576px) {
+
+
+
+/*----------- Accueil --------------*/
+
+.containerAccueil{
+    width: 90%;
+    margin: auto;
+    position: relative;
+    bottom: 0em;
+}
+
+header { 
+    background: url("https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    background-position: center;
+    
+}
+
+h1 {
+  
+    font-size: 10em;
+    margin: 0;
+    color: #fff;
+    position: relative;
+    top: 0.8em;
+    font-weight: 100;
+    text-align: center;
+    font-family: 'Black Han Sans';
+
+}
+header h2{
+    font-size: 2.5em;
+    color: #fff;
+    position: relative;
+    top: 230px;
+    font-family: lato;
+    float: left;
+}
+
+header p{
+    font-size: 1.8em;
+    position: relative;
+    top: 230px;
+    color: #fff;
+    width: 45%;
+    font-family: lato;
+}
+
+header button {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    float: right;
+    background:#CF000F;
+    color: #fff;
+    border-radius:0.5em;
+    border: none;
+    font-size: 2.2em;
+    width: 10em;
+    height: 3.5em;
+    transition: all 0.3s linear;
+}
+
+
+/*-------------- carousel -----------------*/
+
+
+h2 {
+    font-size: 4em;
+    text-align: center;
+    position: relative;
+    font-family: lato;
+    top: 0.5em;
+}
+
+
+.wrapper {
+    margin: auto;
+    width: 80%;
+    position: relative;
+    top: 3em;
+  }
+
+
+#firstSection {
+height: 65em;
+}
+
+#firstSection p {
+    text-align: center;
+    font-size: 1.8em;
+}
+
+#firstSection hr {
+    width: 10em;
+    height: 0.2em;
+    background:rgb(228, 11, 25);
+    margin: auto;
+    position: relative;
+    top: 17em;
+    border-radius: 5em;
+}
+
+#firstSection hr  {
+    display: none;
+}
+
+/*---------------  Section 2 Images -----------------*/
+
+.deuxImages {
+    width: 100%;
+    height: 60em;
+    background:  #CF000F;
+    display: flex;
+}
+
+.bigImg {
+    border: 1px solid black;
+    height: 100%;
+    width: 50%;
+}
+
+#bg1 {
+    background: url("https://images.pexels.com/photos/685534/pexels-photo-685534.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    background-position: center;
+}
+#bg2 {
+    background: url("https://images.pexels.com/photos/17840/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    background-position: center;
+}
+
+#insideImg {
+    margin: auto;
+    height: 25em;
+    width: 20em;
+    background: rgba(255,255,255,0.8);
+    position: relative;
+    top: 12em;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+
+}
+
+
+#insideImg h3 {
+    font-size: 3em;
+    font-family: lato;
+    position: relative;
+    left: 1em;
+    top: -3em;
+}
+
+
+#insideImg2 {
+    margin: auto;
+    height: 25em;
+    width: 20em;
+    background: rgba(255,255,255,0.8);
+    position: relative;
+    top: 12em;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+#insideImg2 h3 {
+    font-size: 2.8em;
+    font-family: lato;
+    position: relative;
+    left: 1em;
+    top: -4.5em;
+
+
+}
+
+
+
+
+
+
+
+
+/*-------------- Cours ---------------*/
+
+
+#sectionCours {
+
+
+height: 160em;
+
+}
+
+#sectionCours h3 {
+    text-align: center;
+    font-size: 3em;
+    font-family: lato;
+    position: relative;
+    top: 0.6em;
+    
+}
+
+
+#sectionCours p {
+    font-size: 1.5em;
+    font-family: lato;
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 2em;
+}
+
+
+.flexDiv {
+    margin: 0 auto;
+    width: 50em;
+    height: 50em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cours {
+
+    height: 25em;
+    width: 35em;
+    margin: auto;
+    
+
+}
+
+.cours img {
+    width: 100%;
+    height:80%;
+}
+
+
+/* Section deviens membre  */
+
+
+#membership {
+
+    width: 100%;
+    height: 40em;
+    background: url("https://images.pexels.com/photos/163444/sport-treadmill-tor-route-163444.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    background-size: cover;
+    background-position: center;
+
+}
+
+#membership h4{
+
+    font-size: 4.5em;
+    font-family: lato;
+    letter-spacing: 0.01em;
+    font-weight: 900;
+    text-align: center;;
+    position: relative;
+    top: 1em;
+    color: #000;
+}
+
+#membership p {
+    text-align: center;
+    font-size: 1.8em;
+    font-family: lato;
+    font-weight: 700;
+    color: #000;
+
+}
+
+#membership button {
+    position: relative;
+    top: 1.5em;
+    display: block;
+    margin: auto;
+    height:3em; 
+    width:300px; 
+    border-radius: 0.5em;
+    font-size: 2em;
+    background:#CF000F;
+    color: #fff;
+    border: none;
+    transition: all 0.3s linear;
+}   
+
+#membership button:hover {
+    color: #CF000F;
+    background: white;
+}
+
+
+/*----------------- Footer -------------------*/
+
+
+footer {
+    height: 40em;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+#footContainer {
+    display: flex;
+    height: 40em;
+    width: 100%;
+    margin: auto;
+
+}
+
+#footDiv1 {
+    width: 45%;
+    text-align: center;
+    margin: auto;
+}
+
+#footDiv1 h4 {
+    font-size: 4em;
+    font-family: lato;
+    padding-top: 0em;
+    margin: 0;
+}
+
+#footDiv1 p {
+    font-family: lato;
+    font-size: 1.8em;
+}
+
+#footDiv2 {
+    width: 45%;
+    text-align: center;
+    margin: auto;
+}
+
+#footDiv2 h4 {
+    font-size: 4em;
+    font-family: lato;
+    margin: 0;
+    text-align: center;
+    position: relative;
+    bottom: 2em;
+}
+
+input {
+    display: block;
+    margin: auto;
+    position: relative;
+    bottom: 4em;
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+}
